@@ -6,6 +6,10 @@ import { AssetsComponent } from './assets/assets.component';
 import { AssetComponent } from './assets/asset/asset.component';
 import { HeaderComponent } from './header/header.component';
 import { AssetListComponent } from './assets/asset-list/asset-list.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { TimesheetComponent } from './timesheet/timesheet.component';
+import { EmployeesComponent } from './employees/employees.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import { AssetListComponent } from './assets/asset-list/asset-list.component';
     AssetsComponent,
     AssetComponent,
     HeaderComponent,
-    AssetListComponent
+    AssetListComponent,
+    LoginComponent,
+    DashboardComponent,
+    TimesheetComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule
