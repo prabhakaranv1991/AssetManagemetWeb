@@ -3,6 +3,50 @@
         <h3>Asset Details</h3>
     </div>
 </div>
+<div class="row">
+    <div class="col-xs-12">
+        <form (submit)="Save()" >
+            <div class="row">
+                <div class="col-sm-5 form-group">
+                    <label for="assetName" >Asset Name:</label>
+                    <input type="text" class="form-control" id="assetName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 form-group">
+                    <label for="serialNo">Serial Number:</label>
+                    <input type="text" name="serialNo" id="serialNo" class="form-control" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 form-group">
+                    <label for="assettype">Asset Type:</label>
+                    <input type="text" name="assettype" id="assettype" class="form-control" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 form-group">
+                    <label for="owner">Asset Type:</label>
+                    <input type="text" name="owner" id="owner" class="form-control" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 form-group">
+                    <label for="approvedBy">Asset Type:</label>
+                    <input type="text" name="approvedBy" id="approvedBy" class="form-control" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 ms-1 mt-2">
+                    <button class="btn btn-success me-1" type="submit">Save</button>
+                    <button class="btn btn-danger me-1" type="button">Delete</button>
+                    <button class="btn btn-secondary me-1" type="button">Clear</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
 
 <!-- <div class="row">
     <div class="col-xs-12">
@@ -18,28 +62,3 @@
         </div>
     </div>
 </div> -->
-<div class="row">
-    <div class="col-xs-12">
-        Asset Name
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        Asset Serial Number
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        Type
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        Owner
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        Approved By
-    </div>
-</div>
